@@ -114,3 +114,39 @@ Konvenciók:
 - API kulcs SOHA ne kerüljön kódba, mindig .env-be
 
 Holnap (Nap 5): Python ↔ JavaScript szintaxis összevetés
+
+## 2026.05.09 - Nap 5
+
+Mit csináltam ma:
+- Áttekintettem a Python ↔ JavaScript szintaxis legfontosabb különbségeit
+- Megtanultam: const, console.log, template literal (${} backtick-ben)
+- Olvasási gyakorlatok JavaScript kódokon (3 példa)
+- Megértettem a beszélgetés-előzmény (messages array) működését
+- Ráláttam, hogy ez lesz a kurzus első hetének alapköve
+
+Mit tanultam (a 3 kulcs JS-Python megfeleltetés):
+- print() ↔ console.log()
+- f"Szia {nev}" ↔ `Szia ${nev}` (backtick!)
+- def() ↔ function()
+- list ↔ array (ugyanaz, más szó)
+- len(x) ↔ x.length
+- list.append() ↔ array.push()
+- for x in lista ↔ for (const x of array)
+- dict ↔ object ({...})
+- == ↔ === (három egyenlőségjel JS-ben!)
+- True/False ↔ true/false (kis betűvel!)
+- None ↔ null
+
+Vibe coder felismerések:
+- Nem kell fejből írni JS-t, OLVASNI kell tudni
+- A {role: "user", content: "..."} objektum lesz a Claude API alapköve
+- A messages.push() pattern minden chatbot szíve
+- A felismerés: "ha valami nem érthető a kódban, az AI-nak el tudom mondani, mit változtasson"
+
+A 3 dolog amit MOST rögzítek (mostantól reflex):
+1. JS-ben mindig const a változók elé
+2. JS-ben mindig console.log a print helyett
+3. JS-ben mindig backtick (`) a template literal-hoz
+
+Holnap (Nap 6): Heti összefoglaló - 1. hét lezárása
+
