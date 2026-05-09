@@ -167,3 +167,35 @@ A vibe coder mindset reflexei (most már automatikusak):
 A repóm: https://github.com/klenovszki/tanulas-2026
 
 Holnaptól: 2. hét - JavaScript mélyítés
+## 2026.05.09 - Nap 8 (2. hét indítás, pihenőt átugrottam)
+
+Mit csináltam:
+- Megtanultam: const vs let vs var
+- Megértettem a scope koncepciót: a {} az életsáv határa
+- Felfedeztem: a return ÉRTÉKET ad át, NEM változót
+- Életszerű példán láttam, hogy néz ki egy Anthropic API hívás
+
+Mit tanultam (a 3 kulcs):
+- const: 95% használat, nem változik
+- let: 5% használat, számlálók, frissülő érték
+- var: kerüld, régi (ha látod, javítsd)
+- Scope: a {} zárójelek között deklarált változó CSAK ott él
+- A függvényen belül deklarált változó a függvény végén MEGHAL
+- A return az értéket adja át, az új változó (a hívónál) ezt kapja meg
+
+A vibe coder felismerés:
+- Ha hibaüzenet "X is not defined", scope a baj
+- A megoldás 90%-ban: hozd ki a deklarációt feljebb
+- Vagy ne hivatkozz rá kívül, ha nincs rá szükség
+
+Ráláttam:
+- A 3. heti kurzus első napi kódjának struktúráját már OLVASNI tudom
+- A const valasz = await client.messages.create({...}) sor érthető
+- A return valaszSzoveg az ÉRTÉKET adja vissza, nem a változót
+
+Mai eredmény: 4 napi anyag egy nap alatt (Nap 4 gyakorlat + 5 + 6 + 8)
+- Az 1. hét hivatalosan lezárva
+- Vibe coder utazási stratégia tesztelve (tablet → Mac)
+- Hányattatás érzés feldolgozva, magabiztos vagyok az 1. hét teljesítésére
+
+Holnap: Nap 9 - Tömb műveletek (map, filter, reduce)
