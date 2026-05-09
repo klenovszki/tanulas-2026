@@ -150,3 +150,20 @@ A 3 dolog amit MOST rögzítek (mostantól reflex):
 
 Holnap (Nap 6): Heti összefoglaló - 1. hét lezárása
 
+## 2026.05.09 - Nap 6 (1. hét lezárása)
+
+Mit csináltam:
+- Készítettem egy 1-het-osszefoglalo.md fájlt a repóba
+- Áttekintettem az 5 nap eredményeit
+- Ráláttam, hogy az oktatói előkövetelmény "Git + terminál" része KÉSZ
+- Ráláttam: az AI (Claude Code) és én EGYÜTT haladunk - ez a vibe coder lényege
+
+A vibe coder mindset reflexei (most már automatikusak):
+- Ha hibaüzenetet kapok, ELŐSZÖR olvasom, csak utána kérdezek
+- Ha bizonytalan vagyok, futtatok cat-et a fájlra
+- Ha tévedek a kvízen, ÚJRA megpróbálom a megértés után
+- Az AI nem helyettesít, hanem GYORSÍT - a felismerés rajtam van
+
+A repóm: https://github.com/klenovszki/tanulas-2026
+
+Holnaptól: 2. hét - JavaScript mélyítés
