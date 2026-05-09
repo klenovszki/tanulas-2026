@@ -82,3 +82,35 @@ Konvenciók megtanulva:
 - Mindig `git status`-szal kezdjük a munkát
 
 Holnap: .gitignore és .env titkok (Nap 4)
+## 2026.05.09 - Nap 4
+
+Mit csináltam ma:
+- Megértettem az API kulcs biztonsági kockázatát (a $5,000 horror sztori)
+- Létrehoztam .env fájlt API_KEY-vel a nap2-elso-script mappában
+- Létrehoztam .gitignore fájlt, kizárva: .env és node_modules/
+- Telepítettem a dotenv csomagot (npm install dotenv)
+- Megírtam env-test.js scriptet ami beolvassa és kiírja a kulcsot
+- Sikeresen futtattam: node env-test.js
+- Git ciklus magadtól (3 új fájl ment fel: env-test.js, package.json, package-lock.json)
+
+Mit tanultam:
+- A .env egy szöveges fájl kulcs-érték párokkal (API_KEY=...)
+- A .gitignore egy LISTA - ami benne van, azt a Git ignorálja
+- A "biztonság" nem a fájlra vonatkozik, hanem a TERJEDÉS megakadályozására
+- A dotenv csomag betölti a .env-et a process.env változóba
+- A kódban SOSEM szerepel a kulcs - csak hivatkozás rá: process.env.API_KEY
+- A node_modules/ azért zárjuk ki, mert mások npm install-lal letöltik
+- A package.json és package-lock.json viszont MEGY GitHub-ra (a projekt leírása)
+
+A vibe coder workflow elvei (élesben tapasztalva):
+- Az elgépelések normálisak (.nv vs .env, gip vs git, -commit vs commit)
+- A hibaüzenetek konkrétak - olvasni kell, nem panaszkodni
+- A `cat fájlnév` a legbiztosabb módja annak, hogy lássuk, mi van benne
+- A -m kapcsoló a commit-nál a "message" rövidítése
+
+Konvenciók:
+- A .gitignore-ba MINDIG kerüljön: .env és node_modules/ (alapcsomag)
+- Új projekt elején ELŐSZÖR csináld meg a .gitignore-t
+- API kulcs SOHA ne kerüljön kódba, mindig .env-be
+
+Holnap (Nap 5): Python ↔ JavaScript szintaxis összevetés
