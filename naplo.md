@@ -199,3 +199,24 @@ Mai eredmény: 4 napi anyag egy nap alatt (Nap 4 gyakorlat + 5 + 6 + 8)
 - Hányattatás érzés feldolgozva, magabiztos vagyok az 1. hét teljesítésére
 
 Holnap: Nap 9 - Tömb műveletek (map, filter, reduce)
+## 2026.05.17 - Nap 9
+
+Mit csináltam:
+- Megtanultam az arrow function (=>) szintaxist
+- Megértettem: map, filter, reduce működését
+- 3 olvasási gyakorlaton alkalmaztam (NRC kontextusban)
+- Felismertem: filter().map() láncolás lehetséges
+
+Mit tanultam (a 4 kulcskifejezés):
+- map: átalakítja minden elemre (pl. × 0.8 = 20% kedvezmény)
+- filter: kiszűri a megfelelőket (pl. >= 6)
+- reduce: összesíti egy értékre (összeadja, átlagot számol)
+- .length: megszámolja az elemeket
+
+A vibe coder felismerés:
+- Ha látok reduce + / length = átlagszámítás
+- A map/filter/reduce az NRC adatelemzés alapja
+- Pontos szóhasználat = pontos AI-kommunikáció
+- filter().map() = szűrés MAJD átalakítás (sorrend számít!)
+
+Holnap: Nap 10 - Objektumok és destrukturálás
